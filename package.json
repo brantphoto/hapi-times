@@ -1,0 +1,21 @@
+{
+  "name": "hapi-times",
+  "version": "1.0.0",
+  "description": "Barely an app",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "good": "^6.4.0",
+    "good-console": "^5.1.0",
+    "hapi": "^11.0.0"
+  },
+  "scripts": {
+    "test": "lab -t 85",
+    "test-cov-html": "lab -r html -o coverage.html"
+  },
+  "devDependencies": {
+    "code": "^1.5.0",
+    "lab": "^6.2.0"
+  }
+}

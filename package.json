@@ -2,7 +2,7 @@
   "name": "hapi-times",
   "version": "1.0.0",
   "description": "Barely an app",
-  "main": "server.js",
+  "main": "app.js",
   "author": "",
   "license": "ISC",
   "dependencies": {

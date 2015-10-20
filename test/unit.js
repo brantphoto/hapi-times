@@ -15,7 +15,7 @@ lab.experiment("Users", function() {
         var result = response.result;
 
         expect(response.statusCode).to.equal(200);
-        expect(result).to.be.array();
+        expect(result).to.be.string();
 
         done();
 
